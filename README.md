@@ -99,6 +99,8 @@ shadowJar {
    relocate 'dev.dejvokep.boostedyaml', 'me.plugin.libs'
 }
 ```
+When you extract your plugin or project to jar, be careful to run the command `shadowJar` and not `build`
+
 Learn more about shadow for gradle [here](https://imperceptiblethoughts.com/shadow/introduction/#benefits-of-shadow)
 
 ## 2. Routes and how to access content
